@@ -1,4 +1,4 @@
-defmodule NovyApiWeb.UserSocket do
+defmodule NovyApiWeb.ApiSocket do
   use Phoenix.Socket
 
   # A Socket handler

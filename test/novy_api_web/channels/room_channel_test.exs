@@ -3,7 +3,7 @@ defmodule NovyApiWeb.RoomChannelTest do
 
   setup do
     {:ok, _, socket} =
-      NovyApiWeb.UserSocket
+      NovyApiWeb.ApiSocket
       |> socket("user_id", %{some: :assign})
       |> subscribe_and_join(NovyApiWeb.RoomChannel, "room:lobby")
 
