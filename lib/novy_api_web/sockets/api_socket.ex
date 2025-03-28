@@ -10,7 +10,7 @@ defmodule NovyApiWeb.ApiSocket do
   # Uncomment the following line to define a "todo:*" topic
   # pointing to the `NovyApiWeb.TodoChannel`:
   #
-  channel "todo:*", NovyApiWeb.TodoChannel
+  channel "debug:*", NovyApiWeb.DebugChannel
   #
   # To create a channel file, use the mix task:
   #

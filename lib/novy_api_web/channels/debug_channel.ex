@@ -1,8 +1,8 @@
-defmodule NovyApiWeb.TodoChannel do
+defmodule NovyApiWeb.DebugChannel do
   use NovyApiWeb, :channel
 
   @impl true
-  def join("todo:lobby", payload, socket) do
+  def join("debug:lobby", payload, socket) do
     if authorized?(payload) do
       {:ok, socket}
     else
